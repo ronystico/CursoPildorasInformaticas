@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsoCoches", "UsoCoches\UsoC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegadosPredicadosLambdas", "DelegadosPredicadosLambdas\DelegadosPredicadosLambdas.csproj", "{A171AD07-EFBB-4E87-A164-61186A9421D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegadosPredicados", "DelegadosPredicados\DelegadosPredicados.csproj", "{2EF645EE-838E-44D0-A18A-D21364D275BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{A171AD07-EFBB-4E87-A164-61186A9421D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A171AD07-EFBB-4E87-A164-61186A9421D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A171AD07-EFBB-4E87-A164-61186A9421D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EF645EE-838E-44D0-A18A-D21364D275BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF645EE-838E-44D0-A18A-D21364D275BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF645EE-838E-44D0-A18A-D21364D275BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF645EE-838E-44D0-A18A-D21364D275BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
