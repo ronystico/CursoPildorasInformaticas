@@ -19,7 +19,6 @@ namespace DelegadosPredicados
         //}
         static void Main(string[] args)
         {
-
             //OperacionesMatematicas operaciones = new OperacionesMatematicas((num1, num2) => num1 + num2);
             //Console.WriteLine(operaciones(4,7));
 
