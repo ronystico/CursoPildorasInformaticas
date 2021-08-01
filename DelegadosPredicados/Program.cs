@@ -5,31 +5,46 @@ namespace DelegadosPredicados
 {
     class Program
     {
+        public delegate bool ComparaPersonas(string n1,string n2);
         //static bool DamePares(int num)
         //{
         //    if (num % 2 == 0) return true;
         //    else return false;
         //}
 
-        static bool Existe(Personas personas)
-        {
-            if (personas.Edad >= 18) return true;
-            else return false;
-        }
+        //static bool Existe(Personas personas)
+        //{
+        //    if (personas.Edad >= 18) return true;
+        //    else return false;
+        //}
         static void Main(string[] args)
         {
 
-            Ejercicio.CalcularPrimo();
+            //OperacionesMatematicas operaciones = new OperacionesMatematicas((num1, num2) => num1 + num2);
+            //Console.WriteLine(operaciones(4,7));
+
+            //List<int> numeros = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            //List<int> numerosPares = numeros.FindAll(i => i % 2 == 0);
+            //// foreach(int lol in numerosPares) Console.WriteLine(lol);
+            //numerosPares.ForEach(numeros => {
+            //    Console.WriteLine("El número par es: "); 
+            //    Console.WriteLine(numeros);});
+
+            ///////////////////////////////////////////////
+
+            // Ejercicio.CalcularPrimo();
 
             ///////////////////////////////////////////////
             //List<Personas> personas = new List<Personas>();
 
-            //Personas personas1 = new Personas();
-            //personas1.Nombre = "Juana";
-            //personas1.Edad = 8;            
-            //Personas personas2 = new Personas();
-            //personas2.Nombre = "María";
-            //personas2.Edad = 7;
+            Personas personas1 = new Personas();
+            personas1.Nombre = "Juana";
+            personas1.Edad = 8;
+            Personas personas2 = new Personas();
+            personas2.Nombre = "Juana";
+            personas2.Edad = 8;
+            ComparaPersonas comparaPersonas = (persona1, persona2) => persona1 == persona2;
+            Console.WriteLine(comparaPersonas(personas1.Nombre,personas2.Nombre));
             //Personas personas3 = new Personas();
             //personas3.Nombre = "Ana";
             //personas3.Edad = 3;
@@ -60,13 +75,22 @@ namespace DelegadosPredicados
             //    Console.WriteLine(num);
             //}
         }
-    }
-    class Personas
-    {
-        private string nombre;
-        private int edad;
 
-        public string Nombre { get => nombre; set => nombre = value; }
-        public int Edad { get => edad; set => edad = value; }
+        //public static int Cuadrado(int num)
+        //{
+        //    return num * num;
+        //}
+        //public static int Suma(int num1,int num2)
+        //{
+        //    return num1 + num2;
+        //}
+        class Personas
+        {
+            private string nombre;
+            private int edad;
+
+            public string Nombre { get => nombre; set => nombre = value; }
+            public int Edad { get => edad; set => edad = value; }
+        }
     }
 }
