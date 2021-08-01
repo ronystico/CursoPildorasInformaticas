@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CursoPildorasInformaticas
+namespace DelegadosPredicadosLambdas
 {
     class Program
     {

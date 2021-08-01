@@ -1,8 +1,25 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AlmacenEmpleadosT\AlmacenEmpleadosT.csproj" />
+    <ProjectReference Include="..\ClaseAnonima\ClaseAnonima.csproj" />
+    <ProjectReference Include="..\Colecciones\Colecciones.csproj" />
+    <ProjectReference Include="..\Destructor\Destructor.csproj" />
+    <ProjectReference Include="..\EjercicioHerencia\EjercicioHerencia.csproj" />
+    <ProjectReference Include="..\Genericos\Genericos.csproj" />
+    <ProjectReference Include="..\HerenciaSuperclaseObject\HerenciaSuperclaseObject.csproj" />
+    <ProjectReference Include="..\InterfacesIV\InterfacesIV.csproj" />
+    <ProjectReference Include="..\intparse\intparse.csproj" />
+    <ProjectReference Include="..\LinkedList\LinkedList.csproj" />
+    <ProjectReference Include="..\PropiedadesAcceso\PropiedadesAcceso.csproj" />
+    <ProjectReference Include="..\StructsyEnum\StructsyEnum.csproj" />
+    <ProjectReference Include="..\UsoArrays\UsoArrays.csproj" />
+    <ProjectReference Include="..\UsoCoches\UsoCoches.csproj" />
+  </ItemGroup>
 
 </Project>
